@@ -1,0 +1,12 @@
+version: "3"
+services:
+  web:
+    image: web
+    ports:
+      - "8080:80"
+  
+  words:
+    image: words
+  
+  db:
+    image: db
